@@ -1,13 +1,13 @@
 #!/usr/bin/env python3
 
 def double(x: int) -> int:
-    """Doubles an integers.
+    """Doubles an integer and adds 4.
 
     >>> double(2)
-    4
+    8
     >>> double(3)
-    6
+    10
     """
-    return 2 * x
+    return 2 * x + 4 
 
 
